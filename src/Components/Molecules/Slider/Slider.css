@@ -1,0 +1,44 @@
+.slider-container {
+  margin: 20px
+}
+
+.heading {
+  font-weight: bold;
+  opacity: 0.5;
+  white-space: nowrap;
+}
+
+.headingContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  background-color: grey;
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.image-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  width: calc(100vw - 225px);
+  overflow-y: scroll;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .image-container {
+    width: calc(100vw - 110px);
+  }
+}
